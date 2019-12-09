@@ -36,22 +36,24 @@ public class RollDiceCombinations {
     public int numRollsToTarget(int d, int f, int target) {
         if (d * f < target || d > target) return 0;
         final int mod = 1000000007;
-        Map<Integer, Long> previousLevel;
-        Map<Integer, Long> currentLevel = new HashMap<>();
-        for (int i = 1; i <= f; i++) {
-            currentLevel.put(i, 1L);
-        }
+        Map<Integer, Integer> dThRoll = new HashMap<Integer, Integer>(){{
+            put(0, 1);
+        }};
+        Map<Integer, Integer> d_1ThRoll;
 
-        for (int rollCount = 2; rollCount <= d; rollCount++) {
-            previousLevel = currentLevel;
-            currentLevel = new HashMap<>();
+        for (int rollCount = 1; rollCount <= d; rollCount++) {
+            d_1ThRoll = dThRoll;
+            dThRoll = new HashMap<>();
             for (int rollValue = 1; rollValue <= f; rollValue++) {
-                for (Map.Entry<Integer, Long> entry: previousLevel.entrySet()) {
-                    currentLevel.compute(entry.getKey() + rollValue, (k, v) -> (v == null ? entry.getValue() : v + entry.getValue()) % mod);
+                for (Map.Entry<Integer, Integer> e: d_1ThRoll.entrySet()) {
+                    if (e.getKey() + rollValue <= target) {
+                        dThRoll.compute(e.getKey() + rollValue,
+                                (k, v) -> ((v == null ? 0 : v) + e.getValue()) % mod);
+                    }
                 }
             }
         }
-        return (int) currentLevel.get(target).longValue();
+        return dThRoll.get(target);
     }
 
 }
