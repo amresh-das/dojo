@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Stack;
 
+/**
+ * @see "https://leetcode.com/problems/valid-parentheses/"
+ */
 public class BracketValidator {
 
     @Test
