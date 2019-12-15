@@ -60,17 +60,14 @@ public class TrappingRainWater {
                 break;
             }
         }
-        if (maxSoFarIndex == -1) {
-            return -1;
-        } else {
-            int minHeight = Math.min(height[start], maxSoFar);
-            int area = minHeight * (maxSoFarIndex - start + 1);
-            for (int i = start; i <= maxSoFarIndex; i++) {
-                area -= Math.min(height[i], minHeight);
-            }
-            water.addAndGet(area);
-            return maxSoFarIndex;
+        if (maxSoFarIndex == -1) return -1;
+        int minHeight = Math.min(height[start], maxSoFar);
+        int area = minHeight * (maxSoFarIndex - start + 1);
+        for (int i = start; i <= maxSoFarIndex; i++) {
+            area -= Math.min(height[i], minHeight);
         }
+        water.addAndGet(area);
+        return maxSoFarIndex;
     }
 
 }
