@@ -1,5 +1,7 @@
 package com.amz;
 
+import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -11,10 +13,10 @@ public class AnySum {
     void t1() {
         int[] nums = new int[] {1, 0, -1, 0, -2, 2};
         int target = 0;
-        Set<List<Integer>> expected = Set.of(
-                List.of(-1,  0, 0, 1),
-                List.of(-2, -1, 1, 2),
-                List.of(-2,  0, 0, 2)
+        Set<List<Integer>> expected = Sets.newHashSet(
+                Lists.newArrayList(-1, 0, 0, 1),
+                Lists.newArrayList(-2, -1, 1, 2),
+                Lists.newArrayList(-2, 0, 0, 2)
         );
         Assertions.assertEquals(expected, new HashSet<>(new Solution(4).sum(nums, target)));
     }
