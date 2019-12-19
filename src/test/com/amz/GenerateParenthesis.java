@@ -1,7 +1,7 @@
 package com.amz;
 
 import com.google.common.collect.Sets;
-import org.junit.jupiter.api.Assertions;
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class GenerateParenthesis {
     @Test
     void t1() {
         Set<String> result = Sets.newHashSet("()");
-        Assertions.assertEquals(result, new HashSet<>(generateParenthesis(1)));
+        Assertions.assertThat(generateParenthesis(1)).containsAll(result);
     }
 
     @Test
@@ -26,7 +26,8 @@ public class GenerateParenthesis {
             "(())",
             "()()"
         );
-        Assertions.assertEquals(result, new HashSet<>(generateParenthesis(2)));
+        Assertions.assertThat(generateParenthesis(2)).containsAll(result);
+
     }
 
     @Test
@@ -38,7 +39,7 @@ public class GenerateParenthesis {
             "()(())",
             "()()()"
         );
-        Assertions.assertEquals(result, new HashSet<>(generateParenthesis(3)));
+        Assertions.assertThat(generateParenthesis(3)).containsAll(result);
     }
 
     @Test
@@ -59,8 +60,7 @@ public class GenerateParenthesis {
             "()()(())",
             "()()()()"
         );
-        // "(())(())"
-        Assertions.assertEquals(result, new HashSet<>(generateParenthesis(4)));
+        Assertions.assertThat(generateParenthesis(4)).containsAll(result);
     }
 
     public List<String> generateParenthesis(int n) {
