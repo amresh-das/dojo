@@ -3,6 +3,9 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * @see "https://leetcode.com/problems/repeated-substring-pattern/"
+ */
 public class RepeatedSubstringPattern {
 
     @Test

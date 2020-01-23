@@ -6,14 +6,17 @@
     <groupId>com.amz</groupId>
     <artifactId>dojo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>../temp/pizza-ordering</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>dojo</name>
     <url>https://github.com/amresh-das/dojo.git</url>
 
     <properties>
-        <maven.compiler.target>13</maven.compiler.target>
-        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -38,6 +41,11 @@
             <groupId>com.openpojo</groupId>
             <artifactId>openpojo</artifactId>
             <version>0.8.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core-java8</artifactId>
+            <version>1.0.0m1</version>
         </dependency>
     </dependencies>
 </project>

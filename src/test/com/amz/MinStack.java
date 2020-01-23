@@ -3,6 +3,9 @@ package com.amz;
 import java.util.Deque;
 import java.util.LinkedList;
 
+/**
+ * @see "https://leetcode.com/problems/min-stack/"
+ */
 class MinStack {
     private Deque<Integer> store;
     private int min;

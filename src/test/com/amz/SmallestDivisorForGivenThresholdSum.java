@@ -50,7 +50,6 @@ public class SmallestDivisorForGivenThresholdSum {
     private void find(int[] nums, int threshold, int min, int max, List<Integer> divisors) {
         if (min > max) return;
         int divisor = (min + max) / 2;
-        //if (divisor == 0) return;
         if (compute(nums, divisor) > threshold) {
             find(nums, threshold, divisor + 1, max, divisors);
         } else {

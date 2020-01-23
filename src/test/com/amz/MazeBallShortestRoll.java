@@ -9,6 +9,9 @@ import java.util.List;
 import java.util.Objects;
 import java.util.PriorityQueue;
 
+/**
+ * @see "https://leetcode.com/problems/the-maze/"
+ */
 public class MazeBallShortestRoll {
 
     @Test

@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Stack;
 
+/**
+ * @see "https://leetcode.com/problems/reverse-linked-list/"
+ */
 public class ReverseSinglyLinkedList {
 
     @Test

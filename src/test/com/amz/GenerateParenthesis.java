@@ -5,7 +5,6 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -17,7 +16,7 @@ public class GenerateParenthesis {
     @Test
     void t1() {
         Set<String> result = Sets.newHashSet("()");
-        Assertions.assertThat(generateParenthesis(1)).containsAll(result);
+        org.assertj.core.api.Assertions.assertThat(generateParenthesis(1)).containsAll(result);
     }
 
     @Test
@@ -26,7 +25,7 @@ public class GenerateParenthesis {
             "(())",
             "()()"
         );
-        Assertions.assertThat(generateParenthesis(2)).containsAll(result);
+        org.assertj.core.api.Assertions.assertThat(generateParenthesis(2)).containsAll(result);
 
     }
 
@@ -39,7 +38,8 @@ public class GenerateParenthesis {
             "()(())",
             "()()()"
         );
-        Assertions.assertThat(generateParenthesis(3)).containsAll(result);
+        org.assertj.core.api.Assertions.assertThat(generateParenthesis(3)).containsAll(result);
+
     }
 
     @Test
@@ -60,50 +60,32 @@ public class GenerateParenthesis {
             "()()(())",
             "()()()()"
         );
+        // "(())(())"
         Assertions.assertThat(generateParenthesis(4)).containsAll(result);
     }
 
     public List<String> generateParenthesis(int n) {
-        Set<String> result = new HashSet<>();
-        if (n <= 0) return new ArrayList<>();
-        result.add(new String("()"));
-        for (int i = 2; i <= n; i++) {
-            inject(i ,"()", result);
-        }
-        return new ArrayList<>(result);
+        List<String> permutations = new ArrayList<>();
+        char[] base = new char[n * 2];
+        fill(base, 0, n, n, permutations);
+        return permutations;
     }
 
-    private void inject(int i, String s, Set<String> result) {
-        Set<String> temp = new HashSet<>();
-        temp.addAll(before(result, s));
-        temp.addAll(after(result, s));
-        temp.addAll(between(result, s));
-        result.addAll(temp);
-        result.removeIf(t -> t.length() != i * 2);
-    }
-
-    private List<String> between(Set<String> result, String s) {
-        List<String> temp = new ArrayList<>();
-        for (String t: result) {
-            temp.add(s.substring(0, 1) + t + s.substring(1));
+    private void fill(final char[] base, final int current, final int remainingOpen, final int remainingClosed, final List<String> permutations) {
+        if (remainingOpen == 0 && remainingClosed == 0) {
+            permutations.add(new String(base));
+        } else {
+            // Open
+            if (remainingOpen > 0) {
+                base[current] = '(';
+                fill(base, current + 1, remainingOpen - 1, remainingClosed, permutations);
+            }
+            // Close
+            if (remainingClosed > 0 && remainingClosed > remainingOpen ) {
+                base[current] = ')';
+                fill(base, current + 1, remainingOpen, remainingClosed - 1, permutations);
+            }
         }
-        return temp;
-    }
-
-    private List<String> after(Set<String> result, String s) {
-        List<String> temp = new ArrayList<>();
-        for (String t: result) {
-            temp.add(t + s);
-        }
-        return temp;
-    }
-
-    private List<String> before(Set<String> result, String s) {
-        List<String> temp = new ArrayList<>();
-        for (String t: result) {
-            temp.add(s + t);
-        }
-        return temp;
     }
 
 }
