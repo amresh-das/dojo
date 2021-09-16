@@ -6,40 +6,62 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class NQueens {
 
     public List<List<String>> solveNQueens(final int n) {
         final List<List<String>> solutions = new ArrayList<>();
-        for (int row = 0; row < n; row++) {
-            
+        final char[][] board = new char[n][n];
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(board[i], '.');
         }
+        fillRow(0, board, n, solutions);
+
+
         return solutions;
     }
 
-    private boolean isValid(final char[] board, final int n) {
-        for (int p = 0; p < board.length; p++) {
-            char c = board[p];
-            if (c == 'Q') {
-                final int row = p / n;
-                final int col = p % n;
-
-
+    private void fillRow(final int row, final char[][] board, final int n, final List<List<String>> solutions) {
+        if (row == n) {
+            solutions.add(Arrays.stream(board).map(String::new).collect(Collectors.toList()));
+        } else {
+            for (int col = 0; col < n; col++) {
+                if (isValidQueenSpot(board, n, row, col)) {
+                    board[row][col] = 'Q';
+                    fillRow(row + 1, board, n, solutions);
+                    board[row][col] = '.';
+                }
             }
         }
-        return false;
     }
 
-
-
-    @Test
-    public void t1() {
-        verify(4, "[[\".Q..\",\"...Q\",\"Q...\",\"..Q.\"],[\"..Q.\",\"Q...\",\"...Q\",\".Q..\"]]");
+    private boolean isValidQueenSpot(final char[][] board, final int size, final int i, final int j) {
+        char n, s, e, w, ne, nw, se, sw;
+        for (int k = 1; k < size; k++) {
+            n = i - k >= 0 ? board[i - k][j] : '.';
+            s = i + k < size ? board[i + k][j] : '.';
+            e = j - k >= 0 ? board[i][j - k] : '.';
+            w = j + k < size ? board[i][j + k] : '.';
+            ne = i - k >= 0 && j - k >= 0 ? board[i - k][j - k] : '.';
+            nw = i - k >= 0 && j + k < size ? board[i - k][j + k] : '.';
+            se = i + k < size && j - k >= 0 ? board[i + k][j - k] : '.';
+            sw = i + k < size && j + k < size ? board[i + k][j + k] : '.';
+            if (n == 'Q' || s == 'Q' || e == 'Q' || w == 'Q' || ne == 'Q' || nw == 'Q' || se == 'Q' || sw == 'Q') {
+                return false;
+            }
+        }
+        return true;
     }
 
     @Test
-    public void t2() {
+    void t1() {
         verify(1, "[[\"Q\"]]");
+    }
+
+    @Test
+    void t2() {
+        verify(4, "[[\".Q..\",\"...Q\",\"Q...\",\"..Q.\"],[\"..Q.\",\"Q...\",\"...Q\",\".Q..\"]]");
     }
 
     private void verify(final int input, final String expected) {
