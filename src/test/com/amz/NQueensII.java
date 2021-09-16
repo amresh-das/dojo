@@ -3,36 +3,34 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @see "https://leetcode.com/problems/n-queens/"
+ * @see "https://leetcode.com/problems/n-queens-ii/"
  */
-public class NQueens {
+public class NQueensII {
 
-    public List<List<String>> solveNQueens(final int n) {
-        final List<List<String>> solutions = new ArrayList<>();
+    public int totalNQueens(int n) {
+        final AtomicInteger solutionCount = new AtomicInteger() ;
         final char[][] board = new char[n][n];
         for (int i = 0; i < n; i++) {
             Arrays.fill(board[i], '.');
         }
-        fillRow(0, board, n, solutions);
+        fillRow(0, board, n, solutionCount);
 
 
-        return solutions;
+        return solutionCount.get();
     }
 
-    private void fillRow(final int row, final char[][] board, final int n, final List<List<String>> solutions) {
+    private void fillRow(final int row, final char[][] board, final int n, final AtomicInteger solutionCount) {
         if (row == n) {
-            solutions.add(Arrays.stream(board).map(String::new).collect(Collectors.toList()));
+            solutionCount.incrementAndGet();
         } else {
             for (int col = 0; col < n; col++) {
                 if (isValidQueenSpot(board, n, row, col)) {
                     board[row][col] = 'Q';
-                    fillRow(row + 1, board, n, solutions);
+                    fillRow(row + 1, board, n, solutionCount);
                     board[row][col] = '.';
                 }
             }
@@ -59,16 +57,16 @@ public class NQueens {
 
     @Test
     void t1() {
-        verify(1, "[[\"Q\"]]");
+        verify(1, 1);
     }
 
     @Test
     void t2() {
-        verify(4, "[[\".Q..\",\"...Q\",\"Q...\",\"..Q.\"],[\"..Q.\",\"Q...\",\"...Q\",\".Q..\"]]");
+        verify(4, 2);
     }
 
-    private void verify(final int input, final String expected) {
-        Assertions.assertEquals(expected.replaceAll("\"", ""), Utils.from2dMatrix(solveNQueens(input)));
+    private void verify(final int input, final int expected) {
+        Assertions.assertEquals(expected, totalNQueens(input));
     }
 
 }

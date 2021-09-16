@@ -3,6 +3,9 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * @see "https://leetcode.com/problems/powx-n/"
+ */
 public class PowXN {
     public double myPow(double x, int n) {
         return pow(x, n);

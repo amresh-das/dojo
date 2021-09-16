@@ -3,6 +3,9 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * @see "https://leetcode.com/problems/rotate-image/"
+ */
 public class RotateImage {
     public void rotate(int[][] matrix) {
         rotateDiagonally(matrix);

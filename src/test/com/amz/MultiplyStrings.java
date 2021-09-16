@@ -3,6 +3,9 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * @see "https://leetcode.com/problems/multiply-strings/"
+ */
 public class MultiplyStrings {
 
     public String multiply(String num1, String num2) {
