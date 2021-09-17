@@ -3,23 +3,30 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 /**
  * @see "https://leetcode.com/problems/jump-game-ii/"
  */
 public class JumpGameII {
 
     public int jump(int[] nums) {
-        if (nums.length == 0) return 0;
-        return jumpAndCount(nums, 0, 0);
+        final int[] dp = new int[nums.length];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        countJumps(0, nums, dp, 0);
+        return dp[nums.length - 1];
     }
 
-    private int jumpAndCount(final int[] nums, final int index, final int count) {
-        if (index == nums.length - 1) return count;
-        final int skipJump = jumpAndCount(nums, index + 1, count + 1);
-        if (index + nums[index] <= nums.length && nums[index] != 0) {
-            return Math.min(skipJump, (index + nums[index] == nums.length) ? count + 1 : jumpAndCount(nums, index + nums[index], count + 1));
+    private void countJumps(final int index, final int[] nums, final int[] dp, final int jumps) {
+        if (jumps < dp[index]) {
+            dp[index] = jumps;
+            if (index == nums.length - 1) return;
+            for (int i = nums[index]; i > 0; i--) {
+                if (index + i < nums.length) {
+                    countJumps(index + i, nums, dp, jumps + 1);
+                }
+            }
         }
-        return skipJump;
     }
 
     @Test
@@ -45,6 +52,11 @@ public class JumpGameII {
     @Test
     void t5() {
         Assertions.assertEquals(2, doJump(4,1,1,3,1,1,1));
+    }
+
+    @Test
+    void t6() {
+        Assertions.assertEquals(5, doJump(5,6,4,4,6,9,4,4,7,4,4,8,2,6,8,1,5,9,6,5,2,7,9,7,9,6,9,4,1,6,8,8,4,4,2,0,3,8,5));
     }
 
     private int doJump(final int... arr) {
