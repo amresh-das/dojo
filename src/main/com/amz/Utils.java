@@ -20,6 +20,7 @@ public class Utils {
     }
 
     public static int[][] to2dIntMatrix(final String input) {
+        if (!input.matches(".*\\d+.*")) return new int[0][0];
         final String[] rows = input.substring(1, input.length() - 2).split("\\],\\[");
         final int colLen = rows[0].split("\\],\\[").length;
         final int[][] out = new int[rows.length][colLen];
