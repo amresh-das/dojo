@@ -1,5 +1,7 @@
 package com.amz;
 
+import com.amz.leet.ListNode;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
@@ -8,7 +10,8 @@ import java.util.stream.Collectors;
 public class Utils {
 
     public static int[] stringToIntArray(final String input) {
-        return Arrays.stream(input.replaceAll("[\\[\\]]", "").split(",")).mapToInt(Integer::parseInt).toArray();
+        final String[] inputs = input.replaceAll("[\\[\\]]", "").split(",");
+        return inputs.length == 0 || (inputs.length == 1 && inputs[0].equals("")) ? new int[0] : Arrays.stream(inputs).mapToInt(Integer::parseInt).toArray();
     }
 
     public static String[] toStringArray(final String input) {
@@ -52,5 +55,35 @@ public class Utils {
 
     public static String from2dMatrix(final List<List<String>> input) {
         return "[" + input.stream().map(i -> "[" + i.stream().map(Objects::toString).collect(Collectors.joining(",")) + "]").collect(Collectors.joining(",")) + "]";
+    }
+
+    public static ListNode toListNode(final String input) {
+        ListNode head = null;
+        ListNode prev = null;
+        for (final int t : stringToIntArray(input)) {
+            final ListNode curr = new ListNode(t);
+            if (head == null) {
+                head = curr;
+            } else {
+                prev.next = curr;
+            }
+            prev = curr;
+        }
+        return head;
+    }
+
+    public static String toString(final ListNode input) {
+        ListNode curr = input;
+        final StringBuilder s = new StringBuilder("[");
+        while (curr != null) {
+            s.append(curr.val);
+            s.append(',');
+            curr = curr.next;
+        }
+        if (s.length() > 1) {
+            s.deleteCharAt(s.length() - 1);
+        }
+        s.append("]");
+        return s.toString();
     }
 }
