@@ -15,7 +15,7 @@ public class Utils {
     }
 
     public static String[] toStringArray(final String input) {
-        return input.replaceAll("[\\[\\]]", "").split(",");
+        return input.replaceAll("[\\[\\]\"]", "").split(",");
     }
 
     public static String listOfIntegerListToString(final List<List<Integer>> output) {
