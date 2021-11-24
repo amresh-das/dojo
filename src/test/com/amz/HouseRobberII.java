@@ -10,7 +10,7 @@ public class HouseRobberII {
 
     public int rob(int[] nums) {
         if (nums.length == 0) return 0;
-        if (nums.length == 1) return nums[1];
+        if (nums.length == 1) return nums[0];
 
         return Math.max(robRange(nums, 0, nums.length - 2), robRange(nums, 1, nums.length - 1));
     }
@@ -39,6 +39,11 @@ public class HouseRobberII {
     @Test
     public void t3() {
         check("[1,2,3]", 3);
+    }
+
+    @Test
+    public void t4() {
+        check("[0]", 0);
     }
 
     private void check(String input, int expected) {
