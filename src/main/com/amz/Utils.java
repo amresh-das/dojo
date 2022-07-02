@@ -14,6 +14,16 @@ public class Utils {
         return inputs.length == 0 || (inputs.length == 1 && inputs[0].equals("")) ? new int[0] : Arrays.stream(inputs).mapToInt(Integer::parseInt).toArray();
     }
 
+    public static char[] stringToCharArray(final String input) {
+        final String[] inputs = input.replaceAll("[\"]", "").split(",");
+        if (inputs.length == 0 || (inputs.length == 1 && inputs[0].equals(""))) return new char[0];
+        char[] chars = new char[inputs.length];
+        for (int i = 0; i < inputs.length; i++) {
+            chars[i] = inputs[i].charAt(0);
+        }
+        return chars;
+    }
+
     public static String[] toStringArray(final String input) {
         return input.replaceAll("[\\[\\]\"]", "").split(",");
     }
@@ -30,6 +40,17 @@ public class Utils {
         int i = 0;
         for (String row : rows) {
             out[i++] = stringToIntArray(row);
+        }
+        return out;
+    }
+
+    public static char[][] to2dCharMatrix(final String input) {
+        final String[] rows = input.substring(2, input.length() - 2).split("\\],\\[");
+        final int colLen = rows[0].split(",").length;
+        final char[][] out = new char[rows.length][colLen];
+        int i = 0;
+        for (String row : rows) {
+            out[i++] = stringToCharArray(row);
         }
         return out;
     }
