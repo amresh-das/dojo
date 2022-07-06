@@ -7,8 +7,18 @@ import org.junit.jupiter.api.Test;
  * @see "https://leetcode.com/problems/fibonacci-number"
  */
 public class FibonacciNumber {
-
     public int fib(int n) {
+        int[] lastTwo = new int[2];
+        lastTwo[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            int next = lastTwo[0] + lastTwo[1];
+            lastTwo[0] = lastTwo[1];
+            lastTwo[1] = next;
+        }
+        return n > 1 ? lastTwo[1] : lastTwo[n];
+    }
+
+    public int fib2(int n) {
         return n == 1 ? 1 : n > 1 ? fib(n - 2) + fib(n - 1) : 0;
     }
 
