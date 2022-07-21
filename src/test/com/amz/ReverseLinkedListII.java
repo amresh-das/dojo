@@ -57,18 +57,7 @@ public class ReverseLinkedListII {
     }
 
     private void verify(final String expected, final String input, final int left, final int right) {
-        Assertions.assertEquals(createListNode(expected), reverseBetween(createListNode(input), left, right));
-    }
-
-    private ListNode createListNode(final String input) {
-        int[] in = Utils.stringToIntArray(input);
-        ListNode head = new ListNode(in[0]);
-        ListNode current = head;
-        for (int i = 1; i < in.length; i++) {
-            current.next = new ListNode(in[i]);
-            current = current.next;
-        }
-        return head;
+        Assertions.assertEquals(ListNode.create(expected), reverseBetween(ListNode.create(input), left, right));
     }
 
 }

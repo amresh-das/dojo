@@ -1,5 +1,7 @@
 package com.amz.leet;
 
+import com.amz.Utils;
+
 import java.util.Objects;
 
 public class ListNode {
@@ -8,6 +10,17 @@ public class ListNode {
 
     public ListNode(int x) {
         val = x;
+    }
+
+    public static ListNode create(final String input) {
+        int[] in = Utils.stringToIntArray(input);
+        ListNode head = new ListNode(in[0]);
+        ListNode current = head;
+        for (int i = 1; i < in.length; i++) {
+            current.next = new ListNode(in[i]);
+            current = current.next;
+        }
+        return head;
     }
 
     public ListNode(String x) {
