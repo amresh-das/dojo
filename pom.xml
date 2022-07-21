@@ -7,7 +7,6 @@
     <artifactId>dojo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>../temp/pizza-ordering</module>
     </modules>
     <packaging>pom</packaging>
 
