@@ -29,6 +29,7 @@ public class SuperUglyNumber {
             }
             numbers.addAll(next);
         }
+        System.out.println(numbers);
         return numbers.stream().skip(n - 2L).findFirst().get();
     }
 
