@@ -3,23 +3,20 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.function.Function;
+import java.util.function.Predicate;
+
 /**
  * @see "https://leetcode.com/problems/maximum-value-after-insertion/"
  */
 public class MaximumValueAfterInsertion {
 
     public String maxValue(String n, int x) {
-        int insertionIndexStart = 0;
-        if (n.charAt(0) == '-') {
+        char sign = n.charAt(0);
+        int insertionIndexStart = sign == '-' || sign == '+' ? 1 : 0;
+        Predicate<Integer> check = sign == '-' ? (i) -> n.charAt(i) - '0' <= x : (i) -> n.charAt(i) - '0' >= x;
+        while (insertionIndexStart < n.length() && check.test(insertionIndexStart)) {
             insertionIndexStart++;
-            while (insertionIndexStart < n.length() &&  n.charAt(insertionIndexStart) - '0' <= x) {
-                insertionIndexStart++;
-            }
-        } else {
-            if (n.charAt(0) == '+') insertionIndexStart++;
-            while (insertionIndexStart < n.length() &&  n.charAt(insertionIndexStart) - '0' >= x) {
-                insertionIndexStart++;
-            }
         }
         return n.substring(0, insertionIndexStart) + x + n.substring(insertionIndexStart);
     }
