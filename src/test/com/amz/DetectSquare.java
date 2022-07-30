@@ -17,17 +17,11 @@ public class DetectSquare {
     class SquareDetector {
         private final Set<Point> points = new HashSet<>();
         private final Map<Integer, Set<Point>> xPoints = new HashMap<>();
-        private final Map<Integer, Set<Point>> yPoints = new HashMap<>();
 
         public boolean add(final int x, final int y) {
             Point p = new Point(x, y);
             boolean hasSquare = points.size() > 3 && detectSquare(x, y);
             xPoints.compute(x, (k, v) -> {
-                Set<Point> set = v == null ? new HashSet<>() : v;
-                set.add(p);
-                return set;
-            });
-            yPoints.compute(y, (k, v) -> {
                 Set<Point> set = v == null ? new HashSet<>() : v;
                 set.add(p);
                 return set;
@@ -38,9 +32,10 @@ public class DetectSquare {
 
         private boolean detectSquare(int x, int y) {
             for (Point p2 : xPoints.getOrDefault(x, new HashSet<>())) {
-                for (Point p3 : yPoints.getOrDefault(y, new HashSet<>())) {
-                    Point p4 = new Point(p3.getX(), p2.getY());
-                    if (points.contains(p4)) return true;
+                int distance = Math.abs(x - p2.getX());
+                if ((points.contains(new Point(x, y + distance)) && points.contains(new Point(p2.getX(), y + distance)))
+                        || (points.contains(new Point(x, y - distance)) && points.contains(new Point(p2.getX(), y - distance)))) {
+                    return true;
                 }
             }
             return false;
