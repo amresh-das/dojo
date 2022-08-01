@@ -3,8 +3,7 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Stack;
 
 /**
  * @see "https://leetcode.com/problems/largest-rectangle-in-histogram/"
@@ -13,7 +12,7 @@ public class LargestRectangleInHistogram {
 
     public int largestRectangleArea(int[] heights) {
         int maxArea = 0;
-        final Deque<Integer> idxStack = new ArrayDeque<>(heights.length);
+        final Stack<Integer> idxStack = new Stack<>();
         idxStack.push(-1);
         for (int i = 0; i < heights.length; i++) {
             int current = heights[i];
