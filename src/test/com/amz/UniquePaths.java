@@ -3,20 +3,22 @@ package com.amz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.math.BigInteger;
+
 /**
  * @see "https://leetcode.com/problems/unique-paths/"
  */
 public class UniquePaths {
 
-    public int uniquePaths(int m, int n) {
-        long num=1;
-        for (int i=Math.max(m-1,n-1)+1;i<m+n-1;i++){
-            num*=i;
+    public long uniquePaths(int m, int n) {
+        BigInteger num= new BigInteger(Integer.toString(1));
+        for (int i = Math.max(m-1, n-1) + 1; i < m + n - 1; i++){
+            num = num.multiply(new BigInteger(Integer.toString(i)));
         }
-        for(int i=1;i<Math.min(m-1,n-1)+1;i++){
-            num/=i;
+        for(int i = 1; i < Math.min(m-1, n-1) + 1; i++){
+            num = num.divide(new BigInteger(Integer.toString(i)));
         }
-        return (int)num;
+        return num.intValue();
     }
 
     @Test
@@ -47,5 +49,10 @@ public class UniquePaths {
     @Test
     void t6() {
         Assertions.assertEquals(48620, uniquePaths(10, 10));
+    }
+
+    @Test
+    void t7() {
+        Assertions.assertEquals(155117520, uniquePaths(16, 16));
     }
 }
