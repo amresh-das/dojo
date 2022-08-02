@@ -12,8 +12,7 @@ public class AsteroidCollision {
 
     public int[] asteroidCollision(int[] asteroids) {
         final Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < asteroids.length; i++) {
-            int val = asteroids[i];
+        for (int val : asteroids) {
             if (val > 0) {
                 stack.push(val);
             } else {
