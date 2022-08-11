@@ -4,7 +4,10 @@ import com.amz.leet.TreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class BSTChecker {
+/**
+ * @see "https://leetcode.com/problems/validate-binary-search-tree/"
+ */
+public class ValidateBinarySearchTree {
 
     @Test
     void t1() {
