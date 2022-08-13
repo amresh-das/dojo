@@ -15,8 +15,8 @@ public class SubstringWithConcatenationOfAllWords {
 
     public List<Integer> findSubstring(final String s, final String[] words) {
         final int wordCount = words.length;
+        if (wordCount == 0 || words[0].length() == 0) return new ArrayList<>();
         final int wordLength = words[0].length();
-        if (wordLength == 0 || wordCount == 0) return new ArrayList<>();
 
         final Map<String, String> dictionary = new HashMap<>();
 
