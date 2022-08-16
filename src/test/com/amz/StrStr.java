@@ -34,6 +34,22 @@ public class StrStr {
     }
 
     public int strStr(String haystack, String needle) {
+        if (needle.length() == 0) return 0;
+        int matched = 0;
+        for (int i = 0; i < haystack.length() - needle.length() + 1; i++) {
+            for(int k = 0; k < needle.length(); k++) {
+                if (haystack.charAt(i + k) != needle.charAt(k)) {
+                    matched = 0;
+                    break;
+                }
+                matched++;
+            }
+            if (matched == needle.length()) return i;
+        }
+        return -1;
+    }
+
+    public int strStr2(String haystack, String needle) {
         if (needle == null || needle.isEmpty()) return 0;
         if (haystack.length() == needle.length()) return haystack.equals(needle) ? 0 : -1;
         for (int i = 0; i < haystack.length() - needle.length() + 1; i++) {
