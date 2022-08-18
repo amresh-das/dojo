@@ -144,7 +144,6 @@ public class AccountsMerge {
         );
 
         List<List<String>> actual = accountsMerge(input);
-        System.out.println(actual);
         Assertions.assertTrue(actual.contains(Lists.newArrayList("David", "David0@m.co", "David1@m.co", "David2@m.co", "David3@m.co", "David4@m.co", "David5@m.co")));
         System.out.println(actual);
     }
