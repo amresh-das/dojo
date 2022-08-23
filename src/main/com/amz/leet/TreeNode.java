@@ -1,5 +1,7 @@
 package com.amz.leet;
 
+import com.amz.TreePrinter;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -45,9 +47,7 @@ public class TreeNode {
 
     @Override
     public String toString() {
-        final List<List<String>> result = new ArrayList<>();
-        extractValues(this, 0, result);
-        return result.stream().map(row -> String.join("", row)).collect(Collectors.joining("\n"));
+        return TreePrinter.toString(this);
     }
 
 
@@ -112,4 +112,3 @@ public class TreeNode {
         return Math.max(findTreeLevel(node.left, level + 1), findTreeLevel(node.right, level + 1));
     }
 }
- 
