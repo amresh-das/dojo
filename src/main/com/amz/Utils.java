@@ -107,6 +107,19 @@ public class Utils {
 
     }
 
+    public static String toString(final int[][] input) {
+        final StringBuilder s = new StringBuilder("[");
+        for (int[] t : input) {
+            s.append(toString(t));
+            s.append(",");
+        }
+        if (s.length() > 1) {
+            s.deleteCharAt(s.length() - 1);
+        }
+        s.append("]");
+        return s.toString();
+    }
+
     public static String toString(final ListNode input) {
         ListNode curr = input;
         final StringBuilder s = new StringBuilder("[");
