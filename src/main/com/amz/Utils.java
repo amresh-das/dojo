@@ -134,4 +134,8 @@ public class Utils {
         s.append("]");
         return s.toString();
     }
+
+    public static <T> String toString(List<List<T>> input) {
+        return "[" + input.stream().map(l -> "[" + l.stream().map(Object::toString).collect(Collectors.joining(",")) + "]").collect(Collectors.joining(",")) + "]";
+    }
 }
