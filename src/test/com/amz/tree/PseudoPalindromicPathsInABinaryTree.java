@@ -4,23 +4,28 @@ import com.amz.leet.TreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @see "https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/"
  */
 public class PseudoPalindromicPathsInABinaryTree {
     public int pseudoPalindromicPaths(TreeNode root) {
-        return traverse(root, new HashMap<>());
+        return traverse(root, new HashSet<>());
     }
 
-    private int traverse(TreeNode node, Map<Integer, Integer> nums) {
+    private int traverse(TreeNode node, Set<Integer> nums) {
         if (node == null) return 0;
-        int numCount = nums.compute(node.val, (k, v) -> v == null ? 1 : v + 1);
+        if (nums.contains(node.val)) {
+            nums.remove(node.val);
+        } else {
+            nums.add(node.val);
+        }
         int count = 0;
         if (node.left == null && node.right == null) {
-            count += nums.values().stream().filter(n -> n % 2 == 1).count() <= 1 ? 1 : 0;
+            count += nums.size() <= 1 ? 1 : 0;
         }
         if (node.left != null) {
             count += traverse(node.left, nums);
@@ -28,7 +33,11 @@ public class PseudoPalindromicPathsInABinaryTree {
         if (node.right != null) {
             count += traverse(node.right, nums);
         }
-        nums.put(node.val, numCount - 1);
+        if (nums.contains(node.val)) {
+            nums.remove(node.val);
+        } else {
+            nums.add(node.val);
+        }
         return count;
     }
 
