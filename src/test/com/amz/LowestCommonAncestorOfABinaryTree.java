@@ -1,14 +1,12 @@
 package com.amz;
 
-import com.amz.leet.TreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * @see "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+ * @see "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75"
  */
 public class LowestCommonAncestorOfABinaryTree {
-
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         return (TreeNode) traverse(root, p, q)[0];
     }
@@ -29,27 +27,46 @@ public class LowestCommonAncestorOfABinaryTree {
     }
 
     @Test
-    public void check1() {
-        TreeNode root = TreeNode.create(3,5,1,6,2,0,8,null,null,7,4);
-        TreeNode p = TreeNode.create(5);
-        TreeNode q = TreeNode.create(1);
-        Assertions.assertEquals(root, lowestCommonAncestor(root, p, q));
+    void t1() {
+        TreeNode c0 = new TreeNode(0);
+        TreeNode c1 = new TreeNode(1);
+        TreeNode c2 = new TreeNode(2);
+        TreeNode c3 = new TreeNode(3);
+        TreeNode c4 = new TreeNode(4);
+        TreeNode c5 = new TreeNode(5);
+        TreeNode c6 = new TreeNode(6);
+        TreeNode c7 = new TreeNode(7);
+        TreeNode c8 = new TreeNode(8);
+        c3.left = c5; c3.right = c1;
+        c5.left = c6; c5.right = c2;
+        c2.left = c7; c2.right = c4;
+        c1.left = c0; c1.right = c8;
+        Assertions.assertEquals(3, lowestCommonAncestor(c3, c5, c1).val);
     }
 
     @Test
-    public void check2() {
-        TreeNode root = TreeNode.create(3,5,1,6,2,0,8,null,null,7,4);
-        TreeNode p = TreeNode.create(5);
-        TreeNode q = TreeNode.create(4);
-        Assertions.assertEquals(root.left, lowestCommonAncestor(root, p, q));
+    void t2() {
+        TreeNode c0 = new TreeNode(0);
+        TreeNode c1 = new TreeNode(1);
+        TreeNode c2 = new TreeNode(2);
+        TreeNode c3 = new TreeNode(3);
+        TreeNode c4 = new TreeNode(4);
+        TreeNode c5 = new TreeNode(5);
+        TreeNode c6 = new TreeNode(6);
+        TreeNode c7 = new TreeNode(7);
+        TreeNode c8 = new TreeNode(8);
+        c3.left = c5; c3.right = c1;
+        c5.left = c6; c5.right = c2;
+        c2.left = c7; c2.right = c4;
+        c1.left = c0; c1.right = c8;
+        Assertions.assertEquals(5, lowestCommonAncestor(c3, c5, c4).val);
     }
 
     @Test
-    public void check3() {
-        TreeNode root = TreeNode.create(1,2);
-        TreeNode p = TreeNode.create(1);
-        TreeNode q = TreeNode.create(2);
-        Assertions.assertEquals(root, lowestCommonAncestor(root, p, q));
+    void t3() {
+        TreeNode c1 = new TreeNode(1);
+        TreeNode c2 = new TreeNode(2);
+        c1.left = c2;
+        Assertions.assertEquals(1, lowestCommonAncestor(c1, c1, c2).val);
     }
-
 }

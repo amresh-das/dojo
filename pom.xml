@@ -14,8 +14,8 @@
     <url>https://github.com/amresh-das/dojo.git</url>
 
     <properties>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -24,7 +24,7 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
-            <version>5.5.0</version>
+            <version>5.10.2</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
