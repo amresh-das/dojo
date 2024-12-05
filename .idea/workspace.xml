@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b400cf88-b7f5-48a3-b266-3135288a6402" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/com/amz/FreqStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/amz/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/amz/TreePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/amz/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/amz/leet/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/amz/leet/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/amz/leet/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AccountsMerge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AddBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AddToArrayFormOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AllPathsFromSourceLeadToDestination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AlphabetBoardPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AndroidUnlockPatterns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AngleBetweenHandsOfAClock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AnySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AsteroidCollision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/AsteroidCollisionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BackspaceStringCompare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BestTimeToBuyAndSellStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BestTimeToBuyAndSellStockII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryMatrixMinFlipsToZero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryPrefixDivisibleBy5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryStringWithSubstringsRepresenting1ToN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreeColoringGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreeInorderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreeLevelOrderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreeLongestConsecutiveSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreeMaximumPathSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreePruning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreeRightSideView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BinaryTreesWithFactors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BraceExpansion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/BracketValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CampusBikes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CampusBikesII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CanPlaceFlowersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/Candy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ClimbingStairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CombinationSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CombinationSum2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CombinationSumIV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/Combinations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ConnectingCitiesWithMinimumCost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ConnectionFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ConstructStringFromBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ContainerWithMostWaterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ConvertSortedArrayToBinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CorrectABinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CountAndSay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CountCompleteTreeNodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CountGoodNodesInBinaryTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CountNumberOfSpecialSubsequences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CountOfSmallerNumbersAfterSelf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/CountVowelsPermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DIStringMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DecodeString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DecodeStringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DecodeWays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DeleteAndEarn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DeleteNodeInBSTTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DeleteTheMiddleNodeOfALinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DesignHitCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DesignSearchAutocompleteSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DetectSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DetermineIfTwoStringsAreCloseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DiagonalTraverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DigitCountInRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DisjointTrees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DivideTwoInts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/Dota2SenateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/DuplicateZeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/EditDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/EncodeNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/EqualRowAndColumnPairsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/EvaluateDivisionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ExamRoomSeating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FibonacciNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FillingBookcaseShelves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/Find3DigitEvenNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindAndReplacePattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindIfArrayCanBeSortedWithBitCountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindMinimumInRotatedSortedArrayII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindPeakElementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindPivotIndexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindResultantArrayAfterRemovingAnagrams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindSingleNonDuplicateSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindTheDifferenceOfTwoArraysTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindTheHighestAltitudeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindTheMiddleIndexInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FindTriangularSumOfAnArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FirstAndLastIndexInSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FirstBadVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FirstMissingPositive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FirstUniqueChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FirstUniqueCharacterInAString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FlattenBinaryTreeToLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FlipBitToWin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FloodFill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FloodFill2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/FreqStackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/GenerateParenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/GreatestCommonDivisorOfStringsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/GroupAnagrams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/GroupPeopleByGroupSizes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/GroupShiftedStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/GuessNumberHigherOrLowerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/HighFiveScore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/HouseRobber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/HouseRobberII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/IncreasingTripletSubSequenceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/InsertInterval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/InsufficientTreePathDelete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/InsufficientTreePathDelete2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/InterleavingString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/IsSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/IsSubsequenceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/IslandPerimeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/IsomorphicStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/JumpGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/JumpGameII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/JumpGameVI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/KeysAndRoomsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/KidsWithTheGreatestNumberOfCandiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/KthLargestElementInAnArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/KthLargestInUnsortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/KthSmallestElementInASortedMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/KthSmallestElementInBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LargestCombinationWithBitwiseAndGreaterThanZeroTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LargestRectangleInHistogram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LargestTimeForGivenDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LargestValuesFromLabels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LatestTimeByReplacingHiddenDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LeafSimilarTreesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LengthOfLastWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LevelOrderBinaryTreeTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LoggerRateLimiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestConsecutiveSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestContinuousIncreasingSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestIncreasingSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestLineOfConsecutiveOneInMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestPalindromic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestPathWithDifferentAdjacentCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestSubArrayOfOneAfterDeletingOneElementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestSubstringWithoutRepeats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestValidParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LongestZigZagPathInABinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LowestCommonAncestorOfABinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/LowestCommonAncestorOfABinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MajorityElementII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MatchsticksToSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MatrixBlockSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaxAreaOfIsland.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaxConsecutiveOnesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaxNumberOfKSumPairsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaxSumOfRectangleNoLargerThanK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaxUnitsOnTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximalSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumAverageSubArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumDepthOfBinaryTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumLevelSumOfABinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumNonNegativeProductInMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumNumberOfVowelsInAStringOfGivenLengthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumNumberOfVowelsInASubstringOfGivenLength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumSizeSubarraySumEqualsK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumSubarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumSubsequenceScoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumTwinSumOfALinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumValueAfterInsertion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MaximumXORForEachQueryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MazeBallShortestRoll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MergeIntervals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MergeKSortedLinkedLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MergeKStonePiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MergeSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MergeStringsAlternatelyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MergeTwoSortedLinkedLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinCostClimbingStairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinCostToConnectAllPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimizeMalwareSpreadII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumAreaRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumArrayEndTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumDominoRotationsForEqualRow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumIndexSumOfTwoLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumNumberOfArrowsToBurstBalloons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumNumberOfLinesToCoverPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumPathSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumWindowSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MinimumWindowSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MoveZeroesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MultiplyStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MyCalendarI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/MyCalendarTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NQueens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NQueensII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NRepeatedElementInSize2NArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NaryTreeLevelOrderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NearestExitFromEntranceInMazeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NearestZeroDistanceInMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NextPermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NthTribonacciNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumberOf1Bits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumberOfIslands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumberOfIslandsII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumberOfMatchingSubsequences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumberOfProvincesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumberOfRecentCallsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumberOfSubmatricesThatSumToTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/NumbersWithSameConsecutiveDifferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/OccurrencesAfterBigram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/OddEvenLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/OneThreeTwoPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/OutOfBoundaryPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PaintHouseIII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PalindromeLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PartitionList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PascalsTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PathSumIII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PathSumIIITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PathWithMaximumGold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PerfectSquares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PermutationSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PermutationsII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PhoneDirectory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PlusOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PoorPigs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PowXN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/PrintImmutableLinkedListInReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ProductOfArrayExceptSelfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RangeSumQuery2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RangeSumQueryMutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RecoverBinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RectangleArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReduceArraySizeToTheHalf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReduceToZeroEvenOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RelativeArraySort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RemoveAllAdjacentDuplicatesInString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RemoveArrayElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RemoveCoveredIntervals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RemoveDupesFromSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RemoveNthNodeFromEndOfLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RemovingStarsFromAStringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReorderRoutesToMakeAllPathsLeadToTheCityZeroTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReorderedPowerOf2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RepeatedSubstringPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReverseLinkedListII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReverseLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReverseListInKGroups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReverseSinglyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReverseVowelsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ReverseWordsInStringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RollDiceCombinations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RomanToInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RotateArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RotateImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RotateList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RotatedSortedArraySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/RottingOrangesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SearchA2DMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SearchA2DMatrixII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SearchInsertPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SentenceScreenFitting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SentenceSimilarity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SentenceSimilarityII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SetMatrixZeroes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ShortestDistanceToTargetColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ShortestSubarrayWithORAtLeastKIITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ShortestSubarrayWithSumAtLeastK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SimplifyPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SingleNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SlidingPuzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SlidingWindowMaximum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SmallestCommonRegion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SmallestDivisorForGivenThresholdSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SmallestNumberInInfiniteSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SortColors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SortColorsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SortTheMatrixDiagonally.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SpiralMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SpiralMatrixII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SplitArrayIntoConsecutiveSubsequences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/Sqrtx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SquaresOfASortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/StrStr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/StreamOfCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/StringCompressionIIITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/StringCompressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/StringTransformsIntoAnotherString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/StrobogrammaticNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/Subsets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SubsetsII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SubstringWithConcatenationOfAllWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SubtractProductSumOfInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SuccessfulPairsOfSpellsAndPotionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SudokuSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SuperUglyNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SwapNodePairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/SymmetricTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/TextJustification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/TheNumberOfWeakCharactersInTheGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/TimeNeededToInformAllEmployees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/TotalCostToHireKWorkersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/TrappingRainWater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/TreeAntiClockwiseBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/TwoSumLessThanK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/UniqueMorseCodeWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/UniqueNumberOfOccurrencesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/UniquePaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/UniquePathsII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ValidAnagram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ValidMountainArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ValidNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ValidSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ValidSudoku.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/ValidateBinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/VerticalOrderTraversalOfABinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/WiggleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/WiggleSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/WildcardMatching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/WordLadderII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/WordSubsets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/array/FindOriginalArrayFromDoubledArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/array/MyCircularQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/bit/manipulation/UTF8Validation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/leet/TreeNodeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/tree/ConstructBinaryTreeFromInorderAndPostorderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/tree/PseudoPalindromicPathsInABinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/tree/TwoSumIVInputIsBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amz/util/Point.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Applications/apache-maven-3.9.6" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx10g" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Xmx10g" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php@7.4/7.4.33_8/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2pnFLJRQAKkbYbxnsi5pesnKm5M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.amz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CombinationSumIV">
+    <configuration name="CombinationSumIV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dojo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.amz" />
+      <option name="MAIN_CLASS_NAME" value="com.amz.CombinationSumIV" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsufficientTreePathDelete2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dojo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.amz" />
+      <option name="MAIN_CLASS_NAME" value="com.amz.InsufficientTreePathDelete2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubArrayOfOneAfterDeletingOneElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dojo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.amz" />
+      <option name="MAIN_CLASS_NAME" value="com.amz.LongestSubArrayOfOneAfterDeletingOneElementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CombinationSumIV" />
+        <item itemvalue="JUnit.InsufficientTreePathDelete2" />
+        <item itemvalue="JUnit.LongestSubArrayOfOneAfterDeletingOneElementTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b400cf88-b7f5-48a3-b266-3135288a6402" name="Changes" comment="" />
+      <created>1733393874873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733393874873</updated>
+      <workItem from="1733393876590" duration="657000" />
+      <workItem from="1733394576228" duration="635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
